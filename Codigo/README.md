@@ -1,8 +1,10 @@
-# pagina_web.R
+# Archivos de Código
+
+## pagina_web.R
 
 Contiene el código inicial de lo que será la interfaz de nuestra página web. Por ahora solo presenta lo que sería la selección de uno de los filtros.
 
-# scraping_sence.R
+## scraping_sence.R
 
 Contiene un avance del código para el web scraping.
 
