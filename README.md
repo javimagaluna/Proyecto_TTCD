@@ -5,7 +5,7 @@
 El objetivo de este proyecto es poder brindar mayor información a
 personas que busquen adquirir conocimientos en distintas áreas
 profesionales. Para esto crearemos una página en la cual recopilaremos
-cursos, capacitaciones y charlas gratuitas .
+cursos, capacitaciones y charlas gratuitas.
 
 La idea es facilitar el acceso a este contenido disponible ya en la red en
 un sólo gran catálogo que sea mucho más amigable para el usuario,
