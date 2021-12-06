@@ -31,7 +31,35 @@ sidebar <- dashboardSidebar(
     ))
 
 ## Cuerpo de cada vineta del menu
-body <- dashboardBody()
+body <- dashboardBody( 
+    fluidRow(
+        box(
+            title = strong("Test curso ideal"), status = "warning",
+            solidHeader = TRUE, "Encuentra el curso para ti!"
+        ),
+        box(title = strong("Búsqueda por filtro"), status = "warning",
+            solidHeader = TRUE, "Área", br(), "Modalidad")
+    ),
+    fluidRow(
+        box(width=12,
+            title = "Nuevas plataformas:", status = "info",
+            strong("ACADEMIA TarapaTech")
+            ,br(), 
+            solidHeader = TRUE, "Para más información ingresar al link", br(),href='https://www.acamedia.cl/tdigital')
+    ),
+    fluidRow(
+        box(width=4,
+            title = "Crece Turismo Chile", background = "purple",
+            solidHeader = TRUE, "Postulación hasta el 13/12/2021"),
+        box(width=4,
+            title = "Programacion Con Javascrip", background = "teal",
+            solidHeader = TRUE, "Postulación hasta el 21/01/2022"),
+        box(width=4,
+            title = "Habilidades para el Empleo", background = "purple",
+            solidHeader = TRUE, "Postulación hasta el 17/01/2022")
+    )
+)
+
 ui <- dashboardPage(header, sidebar, body)
 server <- function(input, output) {}
 shinyApp(ui = ui, server = server)
